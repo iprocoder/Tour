@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/com.umeng.message.lib-34d29cb5e194a2d3e9983ef59c8d8dbe.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/android-support-v4-72f8248ac94a981dbc114b4f8cd91b47.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/universal-image-loader-1.9.1-41c3883b9c2d19ebf7d0fcb588c48263.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/YoumiSdk_v4.09_2014-06-16-fbdd747bdaf138e1c43a8eb76db1babc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/umeng-fb-v4.3.2-547aeef0a941437ab09a051f818e7c78.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/mta-sdk-1.0.0-3ee7ee4306a079cd238375e53a6fd4fb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/umeng-update-v2.4.2-232f30dc64083a55505702545e305541.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/BmobSDK_V3.3.4_0310-0696b2df737f469d00d45ed4350503d2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/umeng-analytics-v5.2.3-c613b326963dd4b7674da4245fe9435f.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bin/dexedLibs/open_sdk-f3fdec619fc97b992ec8a6e8d44474b5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

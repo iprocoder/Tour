@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/BmobSDK_V3.3.4_0310.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-analytics-v5.2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/com.umeng.message.lib.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/mta-sdk-1.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/universal-image-loader-1.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/open_sdk.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-update-v2.4.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/umeng-fb-v4.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/YoumiSdk_v4.09_2014-06-16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
