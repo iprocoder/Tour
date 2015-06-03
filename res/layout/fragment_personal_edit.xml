@@ -29,7 +29,7 @@
             android:layout_centerVertical="true"
             android:layout_toRightOf="@id/personal_icon_tips"
             android:contentDescription="@null"
-            android:src="@drawable/ic_launcher" 
+            android:src="@drawable/icon"
             android:layout_margin="8dip"/>
          
         

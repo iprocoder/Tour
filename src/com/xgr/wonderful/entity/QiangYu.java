@@ -1,10 +1,10 @@
 package com.xgr.wonderful.entity;
 
-import java.io.Serializable;
-
 import cn.bmob.v3.BmobObject;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.datatype.BmobRelation;
+
+import java.io.Serializable;
 
 public class QiangYu extends BmobObject implements Serializable {
 

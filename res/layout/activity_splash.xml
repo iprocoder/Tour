@@ -16,7 +16,7 @@
 	    android:text="旅途"
 	    android:textColor="#FFFFFF"
 	    android:textSize="36sp"
-	    android:drawableTop="@drawable/ic_launcher"
+	    android:drawableTop="@drawable/icon"
 	    android:drawablePadding="8dp"
 	    />
 	<TextView 

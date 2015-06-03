@@ -1,21 +1,23 @@
 package com.xgr.wonderful.proxy;
 
+import android.content.Context;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.listener.ResetPasswordListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
-
 import com.xgr.wonderful.entity.User;
 import com.xgr.wonderful.utils.Constant;
 import com.xgr.wonderful.utils.LogUtils;
-
-import android.content.Context;
 
 public class UserProxy {
 
     public static final String TAG = "UserProxy";
 
     private Context mContext;
+    private ISignUpListener signUpLister;
+    private ILoginListener loginListener;
+    private IUpdateListener updateListener;
+    private IResetPasswordListener resetPasswordListener;
 
     public UserProxy(Context context) {
         this.mContext = context;
@@ -52,18 +54,9 @@ public class UserProxy {
         });
     }
 
-    public interface ISignUpListener {
-        void onSignUpSuccess();
-
-        void onSignUpFailure(String msg);
-    }
-
-    private ISignUpListener signUpLister;
-
     public void setOnSignUpListener(ISignUpListener signUpLister) {
         this.signUpLister = signUpLister;
     }
-
 
     public User getCurrentUser() {
         User user = BmobUser.getCurrentUser(mContext, User.class);
@@ -110,14 +103,6 @@ public class UserProxy {
         });
     }
 
-    public interface ILoginListener {
-        void onLoginSuccess();
-
-        void onLoginFailure(String msg);
-    }
-
-    private ILoginListener loginListener;
-
     public void setOnLoginListener(ILoginListener loginListener) {
         this.loginListener = loginListener;
     }
@@ -159,14 +144,6 @@ public class UserProxy {
         });
     }
 
-    public interface IUpdateListener {
-        void onUpdateSuccess();
-
-        void onUpdateFailure(String msg);
-    }
-
-    private IUpdateListener updateListener;
-
     public void setOnUpdateListener(IUpdateListener updateListener) {
         this.updateListener = updateListener;
     }
@@ -196,16 +173,32 @@ public class UserProxy {
         });
     }
 
+    public void setOnResetPasswordListener(IResetPasswordListener resetPasswordListener) {
+        this.resetPasswordListener = resetPasswordListener;
+    }
+
+    public interface ISignUpListener {
+        void onSignUpSuccess();
+
+        void onSignUpFailure(String msg);
+    }
+
+    public interface ILoginListener {
+        void onLoginSuccess();
+
+        void onLoginFailure(String msg);
+    }
+
+    public interface IUpdateListener {
+        void onUpdateSuccess();
+
+        void onUpdateFailure(String msg);
+    }
+
     public interface IResetPasswordListener {
         void onResetSuccess();
 
         void onResetFailure(String msg);
-    }
-
-    private IResetPasswordListener resetPasswordListener;
-
-    public void setOnResetPasswordListener(IResetPasswordListener resetPasswordListener) {
-        this.resetPasswordListener = resetPasswordListener;
     }
 
 }

@@ -1,11 +1,5 @@
 package com.xgr.wonderful.ui;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.util.Date;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -21,18 +15,12 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.RadioGroup;
+import android.widget.*;
 import android.widget.RadioGroup.OnCheckedChangeListener;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.listener.UpdateListener;
 import cn.bmob.v3.listener.UploadFileListener;
-
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.assist.SimpleImageLoadingListener;
 import com.xgr.wonderful.MyApplication;
@@ -43,6 +31,12 @@ import com.xgr.wonderful.utils.ActivityUtil;
 import com.xgr.wonderful.utils.CacheUtils;
 import com.xgr.wonderful.utils.Constant;
 import com.xgr.wonderful.utils.LogUtils;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Date;
 
 @Deprecated
 public class PersonalEditFragment extends BaseHomeFragment implements
@@ -67,6 +61,7 @@ public class PersonalEditFragment extends BaseHomeFragment implements
     String newSex;
 
     User currentUser;
+    String iconUrl;
 
     public static PersonalEditFragment newInstance() {
         PersonalEditFragment fragment = new PersonalEditFragment();
@@ -111,7 +106,7 @@ public class PersonalEditFragment extends BaseHomeFragment implements
                     avatarFile.getFileUrl(mContext),
                     userIcon,
                     MyApplication.getInstance().getOptions(
-                            R.drawable.ic_launcher),
+                            R.drawable.icon),
                     new SimpleImageLoadingListener() {
 
                         @Override
@@ -264,8 +259,6 @@ public class PersonalEditFragment extends BaseHomeFragment implements
             });
         }
     }
-
-    String iconUrl;
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {

@@ -1,13 +1,9 @@
 package com.xgr.wonderful;
 
-import java.io.File;
-
 import android.app.Activity;
 import android.app.Application;
 import android.graphics.Bitmap;
-
 import cn.bmob.v3.BmobUser;
-
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.LruMemoryCache;
@@ -19,6 +15,8 @@ import com.nostra13.universalimageloader.utils.StorageUtils;
 import com.xgr.wonderful.entity.QiangYu;
 import com.xgr.wonderful.entity.User;
 import com.xgr.wonderful.utils.ActivityManagerUtils;
+
+import java.io.File;
 
 public class MyApplication extends Application {
 

@@ -7,7 +7,7 @@ package com.xgr.wonderful.utils;
 
 public interface Constant {
 
-    String BMOB_APP_ID = "070dd04beba0e7efd84a59875539029b";
+    String BMOB_APP_ID = "79732ca90ab348f9ffbc781cd7162147";
     String TABLE_AI = "Mood";
     String TABLE_COMMENT = "Comment";
 
