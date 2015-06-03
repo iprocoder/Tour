@@ -3,7 +3,7 @@ package com.xgr.wonderful.utils;
 public interface UmengStat {
 	
 	/**
-	 * //在继承FragmentActivity的类中，为false;
+	 * 	//在继承FragmentActivity的类中，为false;
 	 * 在只有Activity的类中，为true。
 	 * 统计分为统计时长MobclickAgent.onResume()+MobclickAgent.onPause()
 	 * 和统计页面MobclickAgent.onPageStart()+MobclickAgent.onPageEnd()。
