@@ -28,7 +28,7 @@ import android.widget.ImageView.ScaleType;
 
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Orientation;
-import com.xgr.wonderful.R;
+import com.xgr.tour.R;
 
 @SuppressLint("ViewConstructor")
 public class FlipLoadingLayout extends LoadingLayout {

@@ -18,7 +18,7 @@ package com.markupartist.android.widget;
 
 import java.util.LinkedList;
 
-import com.xgr.wonderful.R;
+import com.xgr.tour.R;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;

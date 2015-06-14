@@ -10,7 +10,7 @@ import android.view.ViewGroup.LayoutParams;
 
 
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
-import com.xgr.wonderful.R;
+import com.xgr.tour.R;
 
 public class SlidingActivityHelper {
 

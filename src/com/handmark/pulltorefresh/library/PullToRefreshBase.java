@@ -39,9 +39,8 @@ import com.handmark.pulltorefresh.library.internal.LoadingLayout;
 import com.handmark.pulltorefresh.library.internal.RotateLoadingLayout;
 import com.handmark.pulltorefresh.library.internal.Utils;
 import com.handmark.pulltorefresh.library.internal.ViewCompat;
-import com.xgr.wonderful.R;
-import com.xgr.wonderful.utils.ActivityUtil;
-import com.xgr.wonderful.utils.LogUtils;
+import com.xgr.tour.R;
+import com.xgr.tour.utils.LogUtils;
 
 public abstract class PullToRefreshBase<T extends View> extends LinearLayout implements IPullToRefresh<T> {
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.xgr.wonderful"
+          package="com.xgr.tour"
           android:versionCode="3"
           android:versionName="1.0">
 
@@ -31,9 +31,9 @@
             android:icon="@drawable/icon"
             android:label="@string/app_name"
             android:theme="@style/AppTheme"
-            android:name="com.xgr.wonderful.MyApplication">
+            android:name="com.xgr.tour.MyApplication">
         <activity
-                android:name="com.xgr.wonderful.ui.SplashActivity"
+                android:name="com.xgr.tour.ui.SplashActivity"
                 android:label="@string/app_name"
                 android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
             <intent-filter>
@@ -42,35 +42,35 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name="com.xgr.wonderful.ui.MainActivity"
+        <activity android:name="com.xgr.tour.ui.MainActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.RegisterAndLoginActivity"
+        <activity android:name="com.xgr.tour.ui.RegisterAndLoginActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.EditActivity"
+        <activity android:name="com.xgr.tour.ui.EditActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"
                   android:windowSoftInputMode="adjustPan"/>
-        <activity android:name="com.xgr.wonderful.ui.CommentActivity"
+        <activity android:name="com.xgr.tour.ui.CommentActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.FavActivity"
+        <activity android:name="com.xgr.tour.ui.FavActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.PersonalActivity"
+        <activity android:name="com.xgr.tour.ui.PersonalActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.PersonalEditActivity"
+        <activity android:name="com.xgr.tour.ui.PersonalEditActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.SettingsActivity"
+        <activity android:name="com.xgr.tour.ui.SettingsActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.AboutActivity"
+        <activity android:name="com.xgr.tour.ui.AboutActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
-        <activity android:name="com.xgr.wonderful.ui.EditSignActivity"
+        <activity android:name="com.xgr.tour.ui.EditSignActivity"
                   android:screenOrientation="portrait"
                   android:theme="@android:style/Theme.Light.NoTitleBar"/>
         <!-- umeng feedback -->
